@@ -1,0 +1,16 @@
+pages\BasePage.class
+enumeration\LocalFirefoxInvoker.class
+enumeration\RemoteChromeInvoker.class
+pages\CalculatorPage.class
+implenentation\WebDriverInvoker.class
+Service\CalculatorService.class
+enumeration\SupportedBrowsers.class
+Model\Calculator.class
+Service\CalculatorCreator.class
+pages\SmokePage.class
+converters\SupportedBrowserConverter.class
+Service\TestDataReader.class
+Service\PropertyReader.class
+enumeration\LocalChromeInvoker.class
+Holder\PropertyHolder.class
+Factory\WebDriverFactory.class

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="11" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-04T17:00:25 IST" name="All tests" finished-at="2022-08-04T17:02:05 IST" duration-ms="100377">
+    <groups>
+    </groups>
+    <test started-at="2022-08-04T17:00:25 IST" name="All tests" finished-at="2022-08-04T17:02:05 IST" duration-ms="100377">
+      <class name="tests.CalculatorPageTests">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:00:25 IST" name="setDriver" finished-at="2022-08-04T17:00:27 IST" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="checkInformationInVmClassString()[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:00:27 IST" name="checkInformationInVmClassString" finished-at="2022-08-04T17:02:05 IST" duration-ms="98349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInformationInVmClassString -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="closeDriver" finished-at="2022-08-04T17:02:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkInformationInVmClassString status=SUCCESS method=CalculatorPageTests.checkInformationInVmClassString()[pri:0, instance:tests.CalculatorPageTests@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method signature="checkCommitmentTermOneYear()[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="checkCommitmentTermOneYear" finished-at="2022-08-04T17:02:05 IST" depends-on-methods="tests.CalculatorPageTests.checkInformationInVmClassString" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCommitmentTermOneYear -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="closeDriver" finished-at="2022-08-04T17:02:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCommitmentTermOneYear status=SUCCESS method=CalculatorPageTests.checkCommitmentTermOneYear()[pri:0, instance:tests.CalculatorPageTests@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method signature="checkInformationInInstanceTypeIncludeN1Standard8()[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="checkInformationInInstanceTypeIncludeN1Standard8" finished-at="2022-08-04T17:02:05 IST" depends-on-methods="tests.CalculatorPageTests.checkInformationInVmClassString" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInformationInInstanceTypeIncludeN1Standard8 -->
+        <test-method signature="checkInformationInVmClassStrings()[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="checkInformationInVmClassStrings" finished-at="2022-08-04T17:02:05 IST" depends-on-methods="tests.CalculatorPageTests.checkInformationInVmClassString" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInformationInVmClassStrings -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="closeDriver" finished-at="2022-08-04T17:02:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkInformationInInstanceTypeIncludeN1Standard8 status=SUCCESS method=CalculatorPageTests.checkInformationInInstanceTypeIncludeN1Standard8()[pri:0, instance:tests.CalculatorPageTests@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method signature="checkLocalSsdSpace2x375Gib()[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="checkLocalSsdSpace2x375Gib" finished-at="2022-08-04T17:02:05 IST" depends-on-methods="tests.CalculatorPageTests.checkInformationInVmClassString" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLocalSsdSpace2x375Gib -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="closeDriver" finished-at="2022-08-04T17:02:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkInformationInVmClassStrings status=SUCCESS method=CalculatorPageTests.checkInformationInVmClassStrings()[pri:0, instance:tests.CalculatorPageTests@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method signature="checkRegionIsFrankfurt()[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="checkRegionIsFrankfurt" finished-at="2022-08-04T17:02:05 IST" depends-on-methods="tests.CalculatorPageTests.checkInformationInVmClassString" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegionIsFrankfurt -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="closeDriver" finished-at="2022-08-04T17:02:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLocalSsdSpace2x375Gib status=SUCCESS method=CalculatorPageTests.checkLocalSsdSpace2x375Gib()[pri:0, instance:tests.CalculatorPageTests@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:tests.CalculatorPageTests@2e4b8173]" started-at="2022-08-04T17:02:05 IST" name="closeDriver" finished-at="2022-08-04T17:02:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRegionIsFrankfurt status=SUCCESS method=CalculatorPageTests.checkRegionIsFrankfurt()[pri:0, instance:tests.CalculatorPageTests@2e4b8173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.CalculatorPageTests -->
+    </test> <!-- All tests -->
+  </suite> <!-- All tests -->
+</testng-results>

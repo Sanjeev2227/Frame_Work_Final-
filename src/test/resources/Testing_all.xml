@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests" verbose="1" >
+    <test name="All tests"   >
+<!--
+        <packages>
+            <package name="tests.CalculatorPageTest1" />
+        </packages>
+-->
+        <classes>
+            <class name="tests.CalculatorPageTests"></class>
+           <class name ="tests.CalculatorSmokeTest">
+                <methods>
+                    <exclude name="isPageVisible()"></exclude>
+                    <exclude name="isPageTitleVisible()"></exclude>
+                    <exclude name="calculatorPageHeaderTest()"></exclude>
+                    <exclude name="InstanceTitle()"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
